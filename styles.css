@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the entire hero section container */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*     background-color: #333; /* Set your desired background color */ */
+    color: #fff; /* Text color */
+    height: 100vh; /* Adjust the height as needed */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+/* Style the hero image */
+.hero img {
+    width: 500px; /* Set your desired image width */
+    height: 200px; /* Set your desired image height */
+/*     object-fit: cover; /* Ensure the image is clipped to fit the container */ */
+    border-radius: 50%; /* Create a circular image */
+    
+	margin-right: 20px; /* Adjust spacing between image and content */
+}
+
+/* Style the hero content */
+.hero-content {
+    text-align: center; /* Align text to the left */
+	
+}
+
+.hero-content h1 {
+    font-size: 20px; /* Set your desired font size */
+    margin-bottom: 5px; /* Adjust spacing below heading */
+}
+
+.hero-content p {
+    font-size: 18px; /* Set your desired font size */
+    margin-bottom: 20px; /* Adjust spacing below paragraph */
+}
+
+/* Style the "Explore Now" button */
+.explore-button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #E60023; /* Set your desired button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.explore-button:hover {
+    background-color: #FF005A; /* Change the background color on hover */
+}
