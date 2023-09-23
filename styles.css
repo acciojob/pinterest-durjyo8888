@@ -20,7 +20,7 @@
 .hero img {
     width: 500px; /* Set your desired image width */
     height: 200px; /* Set your desired image height */
-/*     object-fit: cover; /* Ensure the image is clipped to fit the container */ */
+    object-fit: cover; /* Ensure the image is clipped to fit the container */
     border-radius: 50%; /* Create a circular image */
     
 	margin-right: 20px; /* Adjust spacing between image and content */
